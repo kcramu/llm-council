@@ -14,7 +14,30 @@ In a bit more detail, here is what happens when you submit a query:
 
 This project was 99% vibe coded as a fun Saturday hack because I wanted to explore and evaluate a number of LLMs side by side in the process of [reading books together with LLMs](https://x.com/karpathy/status/1990577951671509438). It's nice and useful to see multiple responses side by side, and also the cross-opinions of all LLMs on each other's outputs. I'm not going to support it in any way, it's provided here as is for other people's inspiration and I don't intend to improve it. Code is ephemeral now and libraries are over, ask your LLM to change it in whatever way you like.
 
-## Setup
+## Quick Start with GitHub Codespaces
+
+The easiest way to get started is using GitHub Codespaces:
+
+1. Click the **Code** button on this repository
+2. Select **Codespaces** tab
+3. Click **Create codespace on main**
+
+The development environment will automatically set up with all dependencies installed. Once ready:
+
+1. Create a `.env` file with your OpenRouter API key:
+   ```bash
+   cp .env.example .env
+   # Edit .env and add your actual API key
+   ```
+
+2. Start the application:
+   ```bash
+   ./start.sh
+   ```
+
+The frontend will automatically open in your browser at port 5173.
+
+## Local Setup
 
 ### 1. Install Dependencies
 
